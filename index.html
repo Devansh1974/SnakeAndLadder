@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Snake and Ladder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🐍 Welcome to Snake and Ladder 🎲</h1>
+        <p class="tagline">Classic fun with a modern twist! Ready to roll the dice?</p>
+    </header>
+
+    <main>
+        <div class="game-intro">
+            <p>Embark on an epic journey filled with twists, turns, snakes, and ladders. Grab a friend and get ready to relive the timeless fun!</p>
+        </div>
+
+        <form id="player-form" class="player-form">
+            <label for="player1-name">Player 1 Name:</label>
+            <input type="text" id="player1-name" placeholder="Enter Player 1 Name" required><br><br>
+            
+            <label for="player2-name">Player 2 Name:</label>
+            <input type="text" id="player2-name" placeholder="Enter Player 2 Name" required><br><br>
+            
+            <button type="submit">🎮 Let's Play</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Made with <span>❤️</span> by Devansh</p>
+    </footer>
+
+    <script>
+        document.getElementById("player-form").addEventListener("submit", (event) => {
+            event.preventDefault(); // Prevent form submission refresh
+            
+            // Get player names from input fields
+            const player1Name = document.getElementById("player1-name").value.trim();
+            const player2Name = document.getElementById("player2-name").value.trim();
+            
+            // Store names in localStorage
+            localStorage.setItem("player1", player1Name);
+            localStorage.setItem("player2", player2Name);
+            
+            // Redirect to the game page
+            window.location.href = "game.html";
+        });
+    </script>
+</body>
+</html>

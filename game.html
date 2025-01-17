@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake and Ladder Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Snake and Ladder Game</h1>
+    <p style="text-align: center;">Player 1: <span id="player1-name"></span></p>
+    <p style="text-align: center;">Player 2: <span id="player2-name"></span></p>
+
+    <div id="game-board"></div>
+
+    <p id="dice-result">Roll the dice to start the game!</p>
+    <div style="text-align: center; color:blue;" >
+        <button id="roll-dice" style="color:white;padding: 20px 40px;font-size: 1.4em;background: linear-gradient(135deg, #4caf50, #81c784);border-radius: 12px;cursor: pointer;transition: all 0.3s ease;box-shadow: 0 8px #388e3c;margin: 15px;text-transform: uppercase;width: 200px;display: inline-block;">Roll Dice</button>
+        <button id="reset-game"style="color:white;padding: 20px 40px;font-size: 1.4em;background: linear-gradient(135deg, #4caf50, #81c784);border-radius: 12px;cursor: pointer;transition: all 0.3s ease;box-shadow: 0 8px #388e3c;margin: 15px;text-transform: uppercase;width: 200px;display: inline-block;">Reset Game</button>
+    </div>
+
+    <div id="winner-popup" class="popup hidden">
+        <div class="popup-content">
+            <h2 id="winner-message"></h2>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+
+
+
+    <script src="game.js"></script>
+</body>
+</html>
