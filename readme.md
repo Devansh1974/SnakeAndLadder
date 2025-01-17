@@ -40,6 +40,7 @@ The **Home Screen** serves as an entry point for the game. Here, players can ent
 ---
 
 ### Game Page (`game.html`)
+<img width="654" alt="Screenshot 2025-01-18 at 01 28 30" src="https://github.com/user-attachments/assets/c152a2d5-73e8-4b59-ae69-88ea3ec64aef" />
 
 The **Game Page** is where the actual gameplay takes place. It includes a variety of interactive features for the players:
 
@@ -69,8 +70,8 @@ The **Game Page** is where the actual gameplay takes place. It includes a variet
    - The game ends when one player reaches the final square on the board (square 100).
    - A popup appears announcing the winner of the game.
    - The player can then choose to reset the game by clicking the **"Start Again"** button.
+<img width="663" alt="Screenshot 2025-01-18 at 01 36 52" src="https://github.com/user-attachments/assets/f0c9c194-d024-49cc-8548-78c627c87e21" />
 
-<img width="654" alt="Screenshot 2025-01-18 at 01 28 30" src="https://github.com/user-attachments/assets/c152a2d5-73e8-4b59-ae69-88ea3ec64aef" />
 
 ----
 
