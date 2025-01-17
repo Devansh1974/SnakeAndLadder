@@ -34,6 +34,8 @@ The **Home Screen** serves as an entry point for the game. Here, players can ent
 4. **Start Button**: 
    - After entering their names, players can click the "Start Game" button.
    - Upon clicking, players are redirected to the game page (`game.html`).
+   - <img width="902" alt="Screenshot 2025-01-18 at 01 29 04" src="https://github.com/user-attachments/assets/8a3d7c76-b3b1-4f5c-9d4e-31ebd1704e9b" />
+
 
 ---
 
@@ -68,7 +70,9 @@ The **Game Page** is where the actual gameplay takes place. It includes a variet
    - A popup appears announcing the winner of the game.
    - The player can then choose to reset the game by clicking the **"Start Again"** button.
 
----
+<img width="654" alt="Screenshot 2025-01-18 at 01 28 30" src="https://github.com/user-attachments/assets/c152a2d5-73e8-4b59-ae69-88ea3ec64aef" />
+
+----
 
 ## Detailed Code Explanation
 
