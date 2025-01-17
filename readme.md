@@ -128,7 +128,3 @@ This file manages the game logic, including dice rolls, token movement, and dete
 
 ---
 
-## Conclusion
-
-This Snake and Ladder game project provides a fun and interactive experience for users while demonstrating key web development skills using **HTML**, **CSS**, and **JavaScript**. The game incorporates dynamic gameplay, a visually appealing interface, and functional dice rolling mechanics. Enjoy the game and challenge your friends!
-
