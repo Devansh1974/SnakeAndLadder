@@ -9,6 +9,12 @@ This is a **Snake and Ladder** game developed using **HTML**, **CSS**, and **Jav
 
 The game follows the classic **Snake and Ladder** board game, where players roll a dice to move their tokens up and down ladders or snakes, respectively, until one player reaches the last square on the board.
 
+
+here is the deployed link to play it from netlify--
+
+https://playsnakeladder.netlify.app/
+
+
 ---
 
 ## Files
